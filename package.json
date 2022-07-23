@@ -1,0 +1,23 @@
+{
+  "name": "widget-template-preact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "example": "cp dist/widget.js example && w3 example",
+    "deploy": "node deploy.mjs"
+  },
+  "devDependencies": {
+    "@bundlr-network/client": "^0.7.15",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "preact": "^10.10.0",
+    "rollup": "^2.77.0",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "w3": "^2.0.2"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
